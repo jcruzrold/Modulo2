@@ -13,7 +13,7 @@ var oHotel = {
         hotelName: "Miramar",
         hotelLocation: "Málaga",
         hotelImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/fb/42/00/pool.jpg?w=1200&h=-1&s=1"
-    },
+    }
 }
 
 var oHotelStars = {
@@ -32,4 +32,4 @@ document.getElementById("hotelName").innerHTML = oHotel[sHotelName].hotelName;
 document.getElementById("hotelLocation").innerHTML = "Ubicado en " + oHotel[sHotelName].hotelLocation;
 document.getElementById("hotelImage").src = oHotel[sHotelName].hotelImage;
 document.getElementById("stars").innerHTML = oHotelStars[sHotelScore];
-document.getElementById("anonimousReviewCheck").checked=bEsReseñaAnonima;
+document.getElementById("anonimousReviewCheck").checked = bEsReseñaAnonima;
